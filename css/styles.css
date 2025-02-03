@@ -121,21 +121,16 @@ img {
 
 /* Секция # 1 "Hero" */
 .hero {
-  max-width: 1440px;
+  width: 100%;
   min-height: 600px;
-  background-image: url("../images/people-office.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
 }
 
 .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  max-width: 1440px;
   background-color: rgba(46, 47, 66, 0.7); /* #2E2F42 с 70% прозрачностью */
   display: flex;
   flex-direction: column;
@@ -143,6 +138,11 @@ img {
   justify-content: center;
   text-align: center;
   color: #fff;
+  background-image: url("../images/people-office.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .hero-title {
