@@ -121,11 +121,12 @@ img {
 
 /* Секция # 1 "Hero" */
 .hero {
-  width: 100%;
+  max-width: 1440px;
   min-height: 600px;
   background-image: url("../images/people-office.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -141,7 +142,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .hero-title {
