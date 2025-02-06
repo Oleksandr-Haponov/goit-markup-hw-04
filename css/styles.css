@@ -312,11 +312,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
-
-.team-icon {
+.icon-social {
   margin-bottom: 32px;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 /* Секция # 4 "Портфолио" */
