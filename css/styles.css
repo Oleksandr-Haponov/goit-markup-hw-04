@@ -118,7 +118,7 @@ img {
 /* Секция # 1 "Hero" */
 .hero {
   padding: 188px 0;
-  width: 100%;
+  max-width: 1440px;
   min-height: 600px;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     /* Затемнение */ url("../images/people-office.jpg"); /* Фоновое изображение */
