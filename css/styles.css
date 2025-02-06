@@ -271,7 +271,6 @@ img {
 /* Список участников */
 .team-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   list-style: none;
@@ -295,7 +294,6 @@ img {
 
 .team-box {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
