@@ -439,10 +439,9 @@ img {
   justify-content: center;
   fill: #f4f4fd;
 }
-/*
 .footer-social {
   fill: #f4f4fd;
-} */
+}
 
 .footer-social-box {
   display: flex;
