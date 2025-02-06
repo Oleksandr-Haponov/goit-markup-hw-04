@@ -320,10 +320,6 @@ img {
 }
 
 .team-social {
-  width: calc((100% - 72px) / 4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Секция # 4 "Портфолио" */
