@@ -314,7 +314,6 @@ img {
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -392,9 +391,6 @@ img {
 .footer {
   background: #2e2f42;
   color: #f4f4fd;
-  padding: 100px 0;
-  display: flex;
-  align-items: center;
 }
 
 .footer-logo {
@@ -442,7 +438,6 @@ img {
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
