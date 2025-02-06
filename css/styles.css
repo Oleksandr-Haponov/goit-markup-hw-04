@@ -405,8 +405,8 @@ img {
 }
 
 .footer-info {
-  padding-left: 156px;
-  padding-right: 120px;
+  margin-left: 156px;
+  margin-right: 120px;
 }
 
 .footer-logo {
