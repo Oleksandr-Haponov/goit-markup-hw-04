@@ -320,6 +320,9 @@ img {
 }
 
 .team-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Секция # 4 "Портфолио" */
