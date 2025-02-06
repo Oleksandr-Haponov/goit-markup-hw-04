@@ -425,7 +425,6 @@ img {
 .footer-box {
   padding-top: 100px;
   padding-bottom: 132px;
-  padding-left: 120px;
 }
 
 .footer-box-text {
@@ -446,13 +445,14 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 16px;
 }
+
 .footer-social {
   fill: #f4f4fd;
 }
 
 .footer-social-box {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
