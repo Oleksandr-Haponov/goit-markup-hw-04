@@ -399,10 +399,8 @@ img {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   max-width: 1158px;
-  margin: 0 auto;
   padding: 0 156px;
   padding-top: 100px;
 }
