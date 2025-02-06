@@ -316,11 +316,14 @@ img {
 .icon-social {
   margin-bottom: 32px;
   gap: 24px;
+  fill: #f4f4fd;
 }
 
 .team-social-icon {
   width: calc((100% - 72px) / 4);
-  fill: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Секция # 4 "Портфолио" */
