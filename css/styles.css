@@ -312,7 +312,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #f4f4fd;
 }
 .icon-social {
   margin-bottom: 32px;
@@ -321,6 +320,7 @@ img {
 
 .team-social-icon {
   width: calc((100% - 72px) / 4);
+  fill: #f4f4fd;
 }
 
 /* Секция # 4 "Портфолио" */
