@@ -301,6 +301,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-icon {
@@ -318,8 +319,9 @@ img {
 
 .team-social {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin-top: 8px;
+  align-items: center;
   gap: 24px;
 }
 
