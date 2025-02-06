@@ -423,8 +423,6 @@ img {
 }
 
 .footer-box {
-  padding-top: 100px;
-  padding-bottom: 132px;
 }
 
 .footer-box-text {
@@ -444,8 +442,6 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 16px;
 }
 
 .footer-social {
