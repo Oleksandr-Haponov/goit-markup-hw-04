@@ -436,11 +436,13 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
-}
-
-.footer-social {
+  justify-content: center;
   fill: #f4f4fd;
 }
+/*
+.footer-social {
+  fill: #f4f4fd;
+} */
 
 .footer-social-box {
   display: flex;
