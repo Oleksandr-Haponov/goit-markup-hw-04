@@ -317,6 +317,8 @@ img {
 }
 
 .team-social {
+  display: flex;
+  justify-content: center;
   margin-top: 8px;
   gap: 24px;
 }
