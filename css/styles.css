@@ -312,11 +312,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
 .icon-social {
   margin-bottom: 32px;
   gap: 24px;
-  fill: #f4f4fd;
 }
 
 .team-social-icon {
