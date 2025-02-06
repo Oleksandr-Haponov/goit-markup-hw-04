@@ -320,6 +320,7 @@ img {
 
 .team-social {
   margin-bottom: 32px;
+  gap: 24px;
 }
 
 /* Секция # 4 "Портфолио" */
