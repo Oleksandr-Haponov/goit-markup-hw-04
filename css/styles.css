@@ -425,7 +425,7 @@ img {
 .footer-box {
   padding-top: 100px;
   padding-bottom: 132px;
-  margin-left: 120px;
+  padding-left: 120px;
 }
 
 .footer-box-text {
@@ -451,7 +451,7 @@ img {
   fill: #f4f4fd;
 }
 
-.team-social-box {
+.footer-social-box {
   display: flex;
   justify-content: center;
   align-items: center;
