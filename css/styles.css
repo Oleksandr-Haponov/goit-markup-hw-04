@@ -446,6 +446,5 @@ img {
 .footer-social-box {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 16px;
 }
