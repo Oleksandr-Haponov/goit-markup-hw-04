@@ -251,6 +251,9 @@ img {
 
 /* Заголовок секции */
 .team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+  text-align: center;
 }
 
 .team-title {
@@ -259,7 +262,6 @@ img {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -269,6 +271,7 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+  list-style: none;
 }
 
 /* Карточка участника */
@@ -278,10 +281,20 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
+  min-width: 260px;
 }
 
-.team-text {
-  /* padding: 32px 0; */
+.team-photo {
+  width: 100%;
+  height: 260px; /* Ограничение высоты фото */
+  object-fit: cover; /* Чтобы фото не искажались */
+  margin-bottom: 32px;
+}
+
+.team-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Имя участника */
@@ -310,26 +323,44 @@ img {
   padding: 32px 0;
 }
 
-.team-icon {
+.team-social-list {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.team-social-item {
   width: 40px;
   height: 40px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition: background-color 250ms ease-in-out;
 }
 
-.icon-social {
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #404bbf;
+}
+
+/* Анимация для иконок */
+.team-social-link svg {
   fill: #f4f4fd;
+  transition: fill 250ms ease-in-out;
 }
 
-.team-social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  margin-bottom: 32px;
+.team-social-link:hover svg,
+.team-social-link:focus svg {
+  fill: #d6e2ff;
 }
 
 /* Секция # 4 "Портфолио" */
