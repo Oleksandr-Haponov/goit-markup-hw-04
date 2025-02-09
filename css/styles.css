@@ -387,6 +387,11 @@ img {
   overflow: hidden;
 }
 
+.portfolio-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 .portfolio-overlay {
   display: flex;
   align-items: center;
