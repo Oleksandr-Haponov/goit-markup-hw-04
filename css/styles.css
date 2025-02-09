@@ -96,6 +96,24 @@ img {
   text-decoration: underline;
 }
 
+.menu-link::after {
+  content: ""; /* 🔥 Добавлено */
+  position: absolute; /* 🔥 Добавлено */
+  width: 100%; /* 🔥 Добавлено */
+  height: 4px; /* 🔥 Добавлено */
+  background-color: #404bbf; /* 🔥 Добавлено */
+  bottom: -1px; /* 🔥 Добавлено */
+  left: 0; /* 🔥 Добавлено */
+  border-radius: 2px; /* 🔥 Добавлено */
+  opacity: 0; /* Скрываем изначально */
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link:hover::after,
+.menu-link:focus::after {
+  opacity: 1;
+}
+
 /* Список контактов */
 .contact-list {
   list-style: none;
