@@ -343,6 +343,11 @@ img {
   transition: background-color 250ms ease-in-out;
 }
 
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #31d0aa;
+}
+
 .icon-social {
   fill: #f4f4fd;
   background-color: #4d5ae5;
