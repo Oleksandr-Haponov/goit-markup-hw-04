@@ -387,21 +387,17 @@ img {
   overflow: hidden;
 }
 
-.portfolio-img-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
 .portfolio-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: 1; /* Тект над синим оверлеем */
   opacity: 0; /* Скрываем по умолчанию */
-  transition: opacity 250ms ease-in-out;
   background-color: #4d5ae5;
   opacity: 0;
   transform: translateY(100%); /* Изначально скрываем ниже */
@@ -415,8 +411,9 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 40px 32px;
-  text-align: center;
+  padding: 40px;
+  padding: 164px;
+  text-align: left;
 }
 
 /* Анимация появления overlay */
