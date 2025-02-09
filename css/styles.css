@@ -357,11 +357,11 @@ img {
   /* background-color: #4d5ae5; */
 }
 
-/* Анимация для иконок */
+/* Анимация для иконок
 .team-social-link {
   fill: #f4f4fd;
   transition: fill 250ms ease-in-out;
-}
+}  */
 
 /* Секция # 4 "Портфолио" */
 .portfolio {
