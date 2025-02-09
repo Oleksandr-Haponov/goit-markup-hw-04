@@ -295,6 +295,7 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 32px 0;
 }
 
 /* Имя участника */
@@ -326,7 +327,7 @@ img {
   margin: 0;
   list-style: none;
   justify-content: center;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .team-social-item {
