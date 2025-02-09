@@ -322,8 +322,6 @@ img {
 }
 
 .team-social-container {
-  display: flex;
-  gap: 24px;
 }
 
 .team-social-list {
