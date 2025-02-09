@@ -397,6 +397,7 @@ img {
   background-color: #4d5ae5;
   opacity: 0; /* Скрываем по умолчанию */
   transition: opacity 250ms ease-in-out;
+  z-index: 0; /* Оставляем ниже текста */
 }
 
 .portfolio-item:hover::before {
@@ -407,9 +408,24 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 296px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Поднимаем текст выше оверлея */
+  opacity: 0; /* Скрываем по умолчанию */
+  transition: opacity 250ms ease-in-out;
+  background-color: #4d5ae5;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1; /* Показываем текст при наведении */
 }
 
 /* Контейнер для текста внутри карточки */
