@@ -413,12 +413,10 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 296px;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; /* Поднимаем текст выше оверлея */
+  z-index: 1; /* Тект над синим оверлеем */
   opacity: 0; /* Скрываем по умолчанию */
   transition: opacity 250ms ease-in-out;
   background-color: #4d5ae5;
