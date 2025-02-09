@@ -408,7 +408,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -422,6 +422,10 @@ img {
   opacity: 0; /* Скрываем по умолчанию */
   transition: opacity 250ms ease-in-out;
   background-color: #4d5ae5;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  padding-bottom: 164px;
 }
 
 .portfolio-item:hover .portfolio-overlay {
