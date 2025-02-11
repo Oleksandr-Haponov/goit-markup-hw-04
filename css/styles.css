@@ -421,9 +421,8 @@ img {
   overflow: hidden;
 }
 
-/* Скрытый overlay */
 .portfolio-overlay {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -432,11 +431,15 @@ img {
   top: 0;
   left: 0;
   z-index: 1;
-  opacity: 0; /* Скрыт по умолчанию */
+  opacity: 0;
   background-color: #4d5ae5;
-  transform: translateY(100%); /* Начальное положение внизу */
+  transform: translateY(100%);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    */
+  opacity: 0;
+  background-color: rgba(77, 90, 229, 0.9);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Текст внутри overlay */
@@ -462,7 +465,7 @@ img {
 /* Анимация появления overlay */
 .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
-  transform: translateY(0);
+  /* transform: translateY(0); */
 }
 
 /* Анимация текста */
