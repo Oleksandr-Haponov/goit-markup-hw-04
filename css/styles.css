@@ -387,6 +387,9 @@ img {
   padding: 120px 0;
 }
 
+.container {
+}
+
 /* Заголовок секции */
 .portfolio-title {
   font-size: 36px;
