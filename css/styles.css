@@ -485,10 +485,6 @@ img {
   border-top: none;
 }
 
-.portfolio-item:hover {
-  transform: translateY(0);
-}
-
 .portfolio-overlay-text:hover {
   transform: translateY(0%);
 }
