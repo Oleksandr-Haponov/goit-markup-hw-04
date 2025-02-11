@@ -422,7 +422,7 @@ img {
 }
 
 .portfolio-overlay {
-  /* display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -436,10 +436,6 @@ img {
   transform: translateY(100%);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    */
-  opacity: 0;
-  background-color: rgba(77, 90, 229, 0.9);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Текст внутри overlay */
@@ -465,7 +461,7 @@ img {
 /* Анимация появления overlay */
 .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
-  /* transform: translateY(0); */
+  transform: translateY(0);
 }
 
 /* Анимация текста */
