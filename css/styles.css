@@ -461,17 +461,13 @@ img {
   transform: translateY(0%);
 }
 
-/* Анимация появления overlay */
+/* Появление overlay при ховере */
 .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
   transform: translateY(0%);
-  -webkit-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
 }
 
-/* Анимация текста */
+/* Анимация появления текста внутри overlay */
 .portfolio-item:hover .portfolio-overlay-text {
   opacity: 1;
   transform: translateY(0%);
@@ -486,11 +482,7 @@ img {
 }
 
 .portfolio-item:hover {
-  transform: translateY(0);
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-overlay-text:hover {
