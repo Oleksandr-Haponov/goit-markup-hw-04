@@ -436,7 +436,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 40px 32px;
-  text-align: left;
 }
 
 /* Hover-эффект */
@@ -453,26 +452,12 @@ img {
   transform: translateY(0%);
 }
 
-/* Анимация появления текста внутри overlay */
-.portfolio-item:hover .portfolio-overlay-text {
-  opacity: 1;
-  transform: translateY(0%);
-}
-
 /* Контейнер для названия и описания */
 .portfolio-text {
   padding: 32px 16px;
   text-align: left;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.portfolio-item:hover {
-  transform: translateY(0%);
-}
-
-.portfolio-overlay-text:hover {
-  transform: translateY(0%);
 }
 
 /* Название проекта */
